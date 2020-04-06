@@ -54,7 +54,7 @@ class _MyHomePageState extends State<ExpandableList> {
   _getIPAddress() async {
     final List<CataBean> catas = List<CataBean>();
     print('_getIPAddress');
-    var url = 'https://baby361.cn/babystudy/audio/catalog.json';
+    var url = 'http://127.0.0.1:8080/catalog.json';
 
     Response res = await get(url);
     print("url = " + url);

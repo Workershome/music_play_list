@@ -31,7 +31,7 @@ class RandomWordsState extends State<RandomWords> {
   _getIPAddress() async {
     final List<MusiBean> musics = List<MusiBean>();
     print('_getIPAddress');
-    var url = 'https://baby361.cn/babystudy/audio/content/tangshi.json';
+    var url = 'http://127.0.0.1:8080/tangshi.json';
 
     Response res = await get(url);
 
